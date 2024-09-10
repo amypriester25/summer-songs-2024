@@ -1,0 +1,64 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeb3b; /* Light yellow for a summer feel */
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #ff9800; /* Orange for a summery touch */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 1em;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.songs-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.songs-list li {
+    margin: 0.5em 0;
+}
+
+.songs-list a {
+    text-decoration: none;
+    color: #ff5722; /* Bright color for links */
+}
+
+.song-details {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.song-details h2 {
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
